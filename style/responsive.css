@@ -600,6 +600,20 @@
         padding: 25px 15px 25px 15px;
     }
 
+    .contact-details-con {
+        flex-direction: column;
+    }
+    .location-con {
+        flex-direction: column;
+    }
+    
+    .email-us-form form {
+        row-gap: 0px;
+    }
+
+    .name-email-con {
+        margin-bottom: 10px;
+    }
     .email-us-form form #fname {
         padding: 0px 10px;
         font-size: 14px;
@@ -615,10 +629,13 @@
 
     }
 
+  
+
     .email-us-form form #address {
         padding: 0px 10px;
         font-size: 14px;
         height: 50px;
+        margin-bottom: 10px;
 
     }
 
@@ -626,20 +643,24 @@
         padding: 0px 10px;
         font-size: 14px;
         height: 50px;
-
+        width: 92%;
+        margin-bottom: 10px;
     }
 
     .email-us-form form #city {
         padding: 0px 10px;
         font-size: 14px;
         height: 50px;
-
+        width: 92%;
+        margin-bottom: 10px;
     }
 
     .email-us-form form #province {
         padding: 0px 10px;
         font-size: 14px;
         height: 50px;
+        width: 92%;
+        margin-bottom: 10px;
 
     }
 
@@ -647,14 +668,16 @@
         padding: 0px 10px;
         font-size: 14px;
         height: 50px;
-
+        width: 92%;
+        margin-bottom: 10px;
     }
 
     .email-us-form form #email {
         padding: 0px 10px;
         font-size: 14px;
         height: 50px;
-
+        width: 92%;
+        margin-bottom: 10px;
     }
     
     .email-us-details-con .email-us-tagline {
@@ -667,6 +690,7 @@
 
     #submit {
         padding: 15px;
+        margin-top: 10px;
     }
 
     .footer {
