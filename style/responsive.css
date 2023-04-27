@@ -205,7 +205,8 @@
 
     .about-video-con {
         width: 100%;
-        height: 450px;
+        height: 350px;
+        margin-bottom: 30px;
     }
 
     .about-section-content-con {
@@ -376,7 +377,8 @@
 
     .footer {
         padding: 50px;
-        column-gap: 20px;
+        row-gap: 10px;
+        flex-direction: column;
     }
 
     .footer .logo {
@@ -467,6 +469,8 @@
         margin-right: 0;
     }
 
+   
+
     .desc-con {
         width: 100%;
     }
@@ -505,7 +509,7 @@
     }
 
     .slideshow-container img {
-        height: 400px;
+        height: 320px;
     }
 
     .best-seller {
@@ -526,7 +530,7 @@
 
     .best-seller-item img {
         min-height: 200px;
-        height: 350px;
+        height: 250px;
     }
 
     .testimonial {
@@ -595,6 +599,63 @@
     .email-us-form-con {
         padding: 25px 15px 25px 15px;
     }
+
+    .email-us-form form #fname {
+        padding: 0px 10px;
+        font-size: 14px;
+        width: 48%;
+        height: 50px;
+    }
+
+    .email-us-form form #lname {
+        padding: 0px 10px;
+        font-size: 14px;
+        width: 48%;
+        height: 50px;
+
+    }
+
+    .email-us-form form #address {
+        padding: 0px 10px;
+        font-size: 14px;
+        height: 50px;
+
+    }
+
+    .email-us-form form #barangay {
+        padding: 0px 10px;
+        font-size: 14px;
+        height: 50px;
+
+    }
+
+    .email-us-form form #city {
+        padding: 0px 10px;
+        font-size: 14px;
+        height: 50px;
+
+    }
+
+    .email-us-form form #province {
+        padding: 0px 10px;
+        font-size: 14px;
+        height: 50px;
+
+    }
+
+    .email-us-form form #phone{
+        padding: 0px 10px;
+        font-size: 14px;
+        height: 50px;
+
+    }
+
+    .email-us-form form #email {
+        padding: 0px 10px;
+        font-size: 14px;
+        height: 50px;
+
+    }
     
     .email-us-details-con .email-us-tagline {
         font-size: 35px;
@@ -623,6 +684,10 @@
     .footer .icons {
         width: auto;
         column-gap: 15px;
+    }
+
+    .footer p {
+        text-align: center;
     }
 }
 
