@@ -53,7 +53,7 @@ $email_body .= "<strong>Phone Number:</strong> $phoneNumber <br>";
 $email_body .= "<strong>E-mail:</strong> $email <br>";
 $email_body .= "<strong>Message:</strong> $message <br>";
 
-$headers = "From: noreply@adsvancedmediatech.com\r\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.    
+$headers = "From: noreply@RosmarOnline.com\r\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.    
 $headers .= "Reply-To: $email\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
