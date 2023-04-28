@@ -557,7 +557,7 @@
         </div>
 
         <div class="contact-details-con">
-          <input placeholder="Phone Number" type="number" id="phone" name="phone_number" max='13' required><br>
+          <input placeholder="Phone Number" type="number" id="phone" name="phone_number" minlength="11" maxlength="13" required><br>
           <input placeholder="Email" type="emai" id="email" name="email" required> <br>
         </div>
         <textarea placeholder="Message" name="message" id="message" cols="30" rows="10" required></textarea> <br>
