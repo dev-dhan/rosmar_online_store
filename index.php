@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rosmar Skin Essentials</title>
-  <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <title>Dear Greens Distribution</title>
+  <link rel="icon" type="image/x-icon" href="images/logo2.png">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style/style.css">
@@ -27,9 +27,9 @@
   <header>
     <a class="logo-link" href="#">
       <div class="logo-img">
-        <img src="images/logo.png" alt="">
+        <img src="images/logo2.png" alt="">
       </div>
-      <p>ROSMAR</p>
+      <p>DEAR GREENS</p>
     </a>
     <div class="hamburger">
       <div class="line"></div>
@@ -42,8 +42,8 @@
         <li><a href="#welcome">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-        <li class="btn-icon"><a href="#"><img class="store-btn" src="images/store-marker.png" alt="Store Button"></a>
+        <li><a href="#best-seller">Top Products</a></li>
+        <li class="btn-icon"><a href="https://www.lazada.com.ph/shop/sunkissed-health-and-cosmetics?path=index.htm&lang=en&pageTypeId=1" target="_blank"><img class="store-btn" src="images/store-marker.png" alt="Store Button"></a>
         </li>
       </ul>
     </nav>
@@ -65,6 +65,7 @@
     </div>
 
     <div class="welcome-img-con" data-aos="fade-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+    <div class="opacity-bg"></div>
     </div>
   </div>
 
@@ -114,79 +115,87 @@
   </div>
 
   <!-- BEST SELLER STARTS HERE -->
-  <section class="best-seller">
+  <section class="best-seller" id="best-seller">
     <h1 class="content-heading">Top Products</h1>
     <div class="best-seller-items">
 
       <div class="best-seller-item">
-        <img src="images/item-1.jpg" alt="Beauty P">
-        <p class="headphone-name">Rosmar Kagayaku bleaching soap 10x instant whitening</p>
-        <p class="headphone-price">₱49</p>
+        <img src="images/item-1.jpg" alt="Beauty Product">
+        <p class="headphone-name">Rosmar Bleaching Whipped Lotion SPF60</p>
+        <p class="headphone-price">₱299.00</p>
         <a class="btn-buy"
-          href="https://shopee.ph/Rosmar-Kagayaku-bleaching-soap-10x-instant-whitening-i.62570952.16575668499"
+          href="https://rb.gy/mlneg"
           target="_blank"><button>Buy Now</button></a>
       </div>
 
       <div class="best-seller-item">
-        <img src="images/item-2.jpg" alt="Beauty P">
-        <p class="headphone-name">Fairy Skin Premium Brightening Sunscreen</p>
-        <p class="headphone-price">₱100 - ₱300</p>
-        <a class="btn-buy" href="https://shopee.ph/Fairy-Skin-Premium-Brightening-Sunscreen-i.62570952.16702337564"
+        <img src="images/item-2.jpg" alt="Beauty Product">
+        <p class="headphone-name">VITABEARS Chewable Gummies Fat Buster, Detox, Skin Vitamins, Flowless Glow Hair Vitamins</p>
+        <p class="headphone-price">₱456.00</p>
+        <a class="btn-buy" href="https://rb.gy/93pxs"
           target="_blank"><button>Buy Now</button></a>
       </div>
 
       <div class="best-seller-item">
-        <img src="images/item-3.jpg" alt="Beauty P">
-        <p class="headphone-name">Rosmar Kagayaku UWU Serum</p>
-        <p class="headphone-price">₱99</p>
-        <a class="btn-buy" href="https://shopee.ph/Fairy-Skin-Premium-Brightening-Sunscreen-i.62570952.16702337564"
+        <img src="images/item-3.jpg" alt="Beauty Product">
+        <p class="headphone-name">Friday Skin Serum</p>
+        <p class="headphone-price">₱180.00</p>
+        <a class="btn-buy" href="https://rb.gy/0oitr"
           target="_blank"><button>Buy Now</button></a>
       </div>
 
       <div class="best-seller-item">
-        <img src="images/item-4.jpg" alt="Beauty P">
-        <p class="headphone-name">BUY 1 TAKE 1 Rosmar Bleaching Whipped Lotion</p>
-        <p class="headphone-price">₱299</p>
-        <a class="btn-buy" href="https://shopee.ph/Fairy-Skin-Premium-Brightening-Sunscreen-i.62570952.16702337564"
+        <img src="images/item-4.jpg" alt="Beauty Product">
+        <p class="headphone-name">Dear Face Beauty Milk Collagen Drink Strawberry Melon Lychee Banana</p>
+        <p class="headphone-price">₱369.00</p>
+        <a class="btn-buy" href="https://rb.gy/z90vy"
           target="_blank"><button>Buy Now</button></a>
       </div>
 
       <div class="best-seller-item">
-        <img src="images/item-5.jpg" alt="Beauty P">
-        <p class="headphone-name">Rosmar Kagayaku 24 hours Rejuvenating set</p>
-        <p class="headphone-price">₱49 - ₱169</p>
-        <a class="btn-buy" href="https://shopee.ph/Fairy-Skin-Premium-Brightening-Sunscreen-i.62570952.16702337564"
+        <img src="images/item-5.jpg" alt="Beauty Product">
+        <p class="headphone-name">Rosmar Charcoal Peel Off Mask</p>
+        <p class="headphone-price">₱199.00</p>
+        <a class="btn-buy" href="https://shorturl.at/cmpq9"
           target="_blank"><button>Buy Now</button></a>
       </div>
 
       <div class="best-seller-item">
-        <img src="images/item-6.jpg" alt="Beauty P">
-        <p class="headphone-name">Rosmar Hydra Glass Skin Set</p>
-        <p class="headphone-price">₱49 - ₱169</p>
-        <a class="btn-buy" href="https://shopee.ph/Fairy-Skin-Premium-Brightening-Sunscreen-i.62570952.16702337564"
+        <img src="images/item-6.jpg" alt="Beauty Product">
+        <p class="headphone-name">Rosmar Kagayaku Bleaching Whipped Soap 10x Instant Whitening 70g</p>
+        <p class="headphone-price">₱49.00</p>
+        <a class="btn-buy" href="https://shorturl.at/qvwZ0"
           target="_blank"><button>Buy Now</button></a>
       </div>
 
       <div class="best-seller-item">
-        <img src="images/item-7.jpg" alt="Beauty P">
-        <p class="headphone-name">Rosmar 4 in 1 The Originals [Kagayaku Soap-Scrub-Whipped Cream-Whipped Lotion]</p>
-        <p class="headphone-price">₱269</p>
-        <a class="btn-buy" href="https://shopee.ph/Fairy-Skin-Premium-Brightening-Sunscreen-i.62570952.16702337564"
+        <img src="images/item-7.jpg" alt="Beauty Product">
+        <p class="headphone-name">Rosmar Kagayaku Hydra Glass Skin Set 10x Instant Whitening Pimple and Scar Remover</p>
+        <p class="headphone-price">₱169.00</p>
+        <a class="btn-buy" href="https://tinyurl.com/2p85rwuk"
           target="_blank"><button>Buy Now</button></a>
       </div>
 
       <div class="best-seller-item">
-        <img src="images/item-8.jpg" alt="Beauty P">
-        <p class="headphone-name">Rosmar Insta-white Foam Wash</p>
-        <p class="headphone-price">₱299</p>
-        <a class="btn-buy" href="https://shopee.ph/Fairy-Skin-Premium-Brightening-Sunscreen-i.62570952.16702337564"
+        <img src="images/item-8.jpg" alt="Beauty Product">
+        <p class="headphone-name">Rosmar Kagayaku Extreme Rejuvenating Set</p>
+        <p class="headphone-price">₱169.00</p>
+        <a class="btn-buy" href="https://tinyurl.com/bp8ra5bt"
+          target="_blank"><button>Buy Now</button></a>
+      </div>
+
+      <div class="best-seller-item">
+        <img src="images/item-9.jpg" alt="Beauty Product">
+        <p class="headphone-name">G+ Goal Lip and Cheek Tint 10ml</p>
+        <p class="headphone-price">₱149.00</p>
+        <a class="btn-buy" href="https://tinyurl.com/3wnv4unf"
           target="_blank"><button>Buy Now</button></a>
       </div>
 
 
 
     </div>
-    <a class="btn-buy-view-all" href="https://shopee.ph/rosmar_kagayaku14" target="_blank"><button>View all</button></a>
+    <a class="btn-buy-view-all" href="https://tinyurl.com/44mn5eyx" target="_blank"><button>View all</button></a>
 
   </section>
 
@@ -577,9 +586,9 @@
   <div class="footer">
     <a class="logo-link" href="#">
       <div class="logo-img">
-        <img src="images/logo.png" alt="">
+        <img src="images/logo2.png" alt="">
       </div>
-      <p>ROSMAR</p>
+      <p>DEAR GREENS</p>
     </a>
     <p class="copyright">© ROSMAR SKIN ESSENTIALS . Powered by <a href="https://adsvancedmediatech.com/"
         target="_blank">ADSvanced Media Tech</a> </p>

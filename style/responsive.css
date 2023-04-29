@@ -153,11 +153,21 @@
        
     }
 
+    
+
     .welcome-img-con {
         width: 100%;
-        height: 650px;
+        height: 550px;
         opacity: 0.2;
     }
+
+    .opacity-bg {
+        height: 100%;
+        width: 100%;
+        background-color:#332e30;
+        opacity: 0.5;
+    }
+   
     
     .welcome-content-con {
         position: absolute;
@@ -171,10 +181,10 @@
         left: 0;
         top: 280px;
         margin: auto;
-
     }
 
     .welcome-content-con .welcome-heading  {
+        color: var(--font-color);
         font-size: 70px;
     }
 
@@ -182,7 +192,7 @@
         font-size: 20px;
         width: 100%;
         text-align: center;
-        color: var(--tertiary-color);
+        color: var(--font-color);
         font-weight: 800;
     }
 
@@ -412,6 +422,10 @@
     .welcome-section-con {
         padding: 25px 15px 25px 15px;
     }
+
+    .navbar {
+        top: 95px;
+    }
 /* 
     .welcome-content-con {
         position: absolute;
@@ -419,10 +433,15 @@
     } */
     .welcome-content-con .welcome-heading {
         font-size: 50px;
+        color: var(--font-color);
     }
 
     .btn {
         margin-top: 0;
+    }
+
+    .btn-icon {
+        margin-left: 20px;
     }
 
     .about-section-con {
@@ -440,6 +459,7 @@
         align-items: center;
         row-gap: 10px;
     }
+   
 
      .content-heading {
         font-size: 35px;
@@ -453,6 +473,7 @@
         margin: 20px 0px;
         font-size: 14px;
     }
+    
 
     .our-services-con {
         padding: 25px 15px;
@@ -495,7 +516,7 @@
 
 
     .our-artist-con .slideshow-container {
-        width: 80%;
+        width: 100%;
         margin-top: 35px;
     }
 
@@ -503,13 +524,9 @@
         font-size: 25px;
     }
 
-    .our-artist-con .slideshow-container {
-        width: 90%;
-        margin-top: 35px;
-    }
 
     .slideshow-container img {
-        height: 320px;
+        height: auto;
     }
 
     .best-seller {
@@ -529,8 +546,7 @@
     }
 
     .best-seller-item img {
-        min-height: 200px;
-        height: 250px;
+        height: auto;
     }
 
     .testimonial {
@@ -628,6 +644,8 @@
         height: 50px;
 
     }
+
+   
 
   
 
@@ -728,10 +746,10 @@
         margin-bottom: 10px;
     }
 
-    .welcome-img-con {
+    /* .welcome-img-con {
         width: 70%;
         height: 550px;
-    }
+    } */
 
     .welcome-content-con {
         width: 15%;
